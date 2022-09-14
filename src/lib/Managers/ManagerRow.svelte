@@ -6,7 +6,7 @@
     export let manager, rosters, users, key;
 
     const roster = rosters.rosters[manager.roster - 1];
-    const user = users[manager.owner_id];
+    const user = users[roster.owner_id];
 </script>
 
 <style>
