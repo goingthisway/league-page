@@ -22,7 +22,7 @@
 
     let roster = rosters[rosterArrNum];
 
-    let user = users[roster.owner_id];
+    let user = users[viewManager.owner_id];
 
     let players, playersInfo;
     let loading = true;
@@ -53,7 +53,7 @@
 
         roster = rosters[rosterArrNum];
 
-        user = users[roster.owner_id];
+        user = users[viewManager.owner_id];
         goto(`/managers?manager=${manager}`, {noscroll})
     }
 
