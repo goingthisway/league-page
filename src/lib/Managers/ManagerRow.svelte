@@ -189,7 +189,7 @@
 </style>
 
 <div class="manager" on:click={() => goto(`/managers?manager=${key}`)}>
-    <img class="photo" src="user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`" alt="{manager.name}" />
+    <img class="photo" src="{user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`}" alt="{manager.name}" />
     <div class="name">{manager.name}</div>
     <div class="team">{user.metadata.team_name ? user.metadata.team_name : user.display_name}</div>
     <div class="spacer" />

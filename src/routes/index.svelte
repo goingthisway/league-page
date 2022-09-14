@@ -160,6 +160,9 @@
         </div>
         <PowerRankings />
         <div class="text">
+            <p></p>
+            <p></p>
+            <p></p>
             <a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a>
         </div>
     </div>

@@ -211,7 +211,7 @@
 
 <div class="managerContainer">
     <div class="managerConstrained">
-        <img class="managerPhoto" src="user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`" alt="manager"/>
+        <img class="managerPhoto" src="{user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`}" alt="manager"/>
         <h2>
             {viewManager.name}
             <div class="teamSub">{roster.co_owners ? 'Co-' : ''}Manager of <i>{user.metadata.team_name ? user.metadata.team_name : user.display_name}</i></div>
