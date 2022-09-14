@@ -18,7 +18,7 @@
     let startersAndReserve = rostersData.startersAndReserve;
     let rosters = rostersData.rosters;
 
-    let rosterArrNum = viewManager.roster-1;
+    let rosterArrNum = viewManager.roster;
 
     let roster = rosters[rosterArrNum];
 
