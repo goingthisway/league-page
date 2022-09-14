@@ -30,9 +30,11 @@ const processUsers = (rawUsers) => {
 }
 
 export const getLeagueUsers = async (x) => {
+	console.log(x)
 	if(x == 0){
 		userInfo = await getLeagueUsersHelper();
 		x = 1;
 	}
+	console.log(userInfo)
 	return userInfo;
 }
