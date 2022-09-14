@@ -5,10 +5,10 @@ import {users} from '$lib/stores';
 export const getLeagueUsers = async (queryLeagueID = leagueID) => {
 	if(get(users)[queryLeagueID]) {
 		let x = get(users)[queryLeagueID];
-		console.log(x);
+		// console.log(x);
 		return x;
 	}
-	console.log("NEW CALL")
+	// console.log("NEW CALL")
 	const res = await fetch(`https://api.sleeper.app/v1/league/${queryLeagueID}/users`, {compress: true}).catch((err) => { console.error(err); });
 	const data = await res.json().catch((err) => { console.error(err); });
 	
