@@ -4,7 +4,7 @@ import {rostersStore} from '$lib/stores';
 
 export const getLeagueRosters = async (queryLeagueID = leagueID) => {
 	if(get(rostersStore)[queryLeagueID]) {
-		x = get(rostersStore)[queryLeagueID];
+		let x = get(rostersStore)[queryLeagueID];
 		console.log(x);
 		return x;
 	}
