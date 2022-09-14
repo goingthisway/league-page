@@ -1,11 +1,14 @@
 <script context="module">
-	import { getPreviousDrafts } from '$lib/utils/helper';
+	import { getUpcomingDraft, getPreviousDrafts } from '$lib/utils/helper';
 
     export async function load() {
+        const upcomingDraftData = getUpcomingDraft();
         const previousDraftsData = getPreviousDrafts();
+	
 		return {
 			props: {
-        previousDraftsData
+        previousDraftsData,
+				        upcomingDraftData,
 			}
 		};
 	}
@@ -14,7 +17,7 @@
 <script>
 	import { Drafts } from '$lib/components';
 
-    export let previousDraftsData;
+    export let upcomingDraftData, previousDraftsData;
 </script>
 
 <style>
@@ -25,5 +28,5 @@
 </style>
 
 <div id="main">
-	<Drafts {previousDraftsData} />
+	<Drafts {upcomingDraftData} {previousDraftsData} />
 </div>
