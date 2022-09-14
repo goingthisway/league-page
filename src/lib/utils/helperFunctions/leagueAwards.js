@@ -185,7 +185,7 @@ const buildDivisionsAndManagers = ({usersData, previousRosters, leagueMetadata, 
 		}
 		if(user) {
 			if(user.avatar) {
-				prevManagers[roster.roster_id].avatar = user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,;
+				prevManagers[roster.roster_id].avatar = (user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`);
 			} else {
 				prevManagers[roster.roster_id].avatar = 'https://sleepercdn.com/images/v2/icons/player_default.webp';
 			}
