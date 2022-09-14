@@ -4,7 +4,7 @@ import {rostersStore} from '$lib/stores';
 
 export const getLeagueRosters = async (queryLeagueID = leagueID) => {
 	if(get(rostersStore)[queryLeagueID]) {
-		console.log(rostersStore)
+		console.log(rostersStore);
 		return get(rostersStore)[queryLeagueID];
 	}
     const res = await fetch(`https://api.sleeper.app/v1/league/${queryLeagueID}/rosters`, {compress: true}).catch((err) => { console.error(err); });
