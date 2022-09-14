@@ -7,8 +7,8 @@
 	
 		return {
 			props: {
-        previousDraftsData,
-				        upcomingDraftData,
+				upcomingDraftData,
+                previousDraftsData
 			}
 		};
 	}
