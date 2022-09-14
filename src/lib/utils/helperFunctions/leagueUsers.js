@@ -5,7 +5,7 @@ import {users} from '$lib/stores';
 export const getLeagueUsers = async (queryLeagueID = leagueID) => {
 	if(get(users)[queryLeagueID]) {
 		let x = get(users)[queryLeagueID];
-		// console.log(x);
+		console.log(x);
 		return x;
 	}
 	// console.log("NEW CALL")
