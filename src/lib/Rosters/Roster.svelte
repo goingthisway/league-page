@@ -4,9 +4,9 @@
 	import { Icon } from '@smui/icon-button';
 	import RosterRow from "./RosterRow.svelte"
 	
-	export let roster, users, startersAndReserve, players, rosterPositions, division, expanded, manager;
+	export let roster, users, startersAndReserve, players, rosterPositions, division, expanded;
 
-	$: user = users[manager.owner_id];
+	$: user = users[roster.owner_id];
 
 	let i = 0;
 
