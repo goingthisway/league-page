@@ -2,10 +2,7 @@ import { leagueID } from '$lib/utils/leagueInfo';
 import { get } from 'svelte/store';
 import {users} from '$lib/stores';
 
-let x = 0;
-let userInfo = {};
-
-const getLeagueUsersHelper = async (queryLeagueID = leagueID) => {
+export const getLeagueUsers = async (queryLeagueID = leagueID) => {
 	if(get(users)[queryLeagueID]) {
 		return get(users)[queryLeagueID];
 	}
@@ -27,14 +24,4 @@ const processUsers = (rawUsers) => {
 		finalUsers[user.user_id] = user;
 	}
 	return finalUsers;
-}
-
-export const getLeagueUsers = async (x) => {
-	console.log(x)
-	if(x == 0){
-		userInfo = await getLeagueUsersHelper();
-		x = 1;
-	}
-	console.log(userInfo)
-	return userInfo;
 }
