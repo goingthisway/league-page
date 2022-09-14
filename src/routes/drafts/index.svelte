@@ -6,8 +6,7 @@
 	
 		return {
 			props: {
-				upcomingDraftData,
-                previousDraftsData
+        previousDraftsData
 			}
 		};
 	}
@@ -16,7 +15,7 @@
 <script>
 	import { Drafts } from '$lib/components';
 
-    export let upcomingDraftData, previousDraftsData;
+    export let previousDraftsData;
 </script>
 
 <style>
@@ -27,5 +26,5 @@
 </style>
 
 <div id="main">
-	<Drafts {upcomingDraftData} {previousDraftsData} />
+	<Drafts {previousDraftsData} />
 </div>
