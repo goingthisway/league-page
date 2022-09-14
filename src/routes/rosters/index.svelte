@@ -7,19 +7,13 @@
 			getLeagueRosters(),
 			getLeagueUsers(),
 			loadPlayers(),
-		);
-
-    const manager = page.query.get('manager');
+		)
 	
-    const props = {
-    	rostersInfo,
-    	manager: null,
-    }
-
-		if(manager && (manager >= 0 && manager < managersObj.length)) {
-            props.manager = manager;
-    }
-		return { props };
+		return {
+			props: {
+				rostersInfo
+			}
+		};
 	}
 </script>
 
@@ -27,7 +21,7 @@
 	import LinearProgress from '@smui/linear-progress';
 	import { Rosters } from '$lib/components'
 
-	export let rostersInfo, manager;
+	export let rostersInfo;
 </script>
 
 <style>
