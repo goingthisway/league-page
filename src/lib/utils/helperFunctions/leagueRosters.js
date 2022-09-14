@@ -8,6 +8,7 @@ export const getLeagueRosters = async (queryLeagueID = leagueID) => {
 		console.log(x);
 		return x;
 	}
+	console.log("NEW ROSTER CALL")
     const res = await fetch(`https://api.sleeper.app/v1/league/${queryLeagueID}/rosters`, {compress: true}).catch((err) => { console.error(err); });
 	const data = await res.json().catch((err) => { console.error(err); });
 	
