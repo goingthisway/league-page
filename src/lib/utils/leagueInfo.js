@@ -24,7 +24,6 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "owner_id": "736325387889610752",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Richard 'Dicky' 'Supreme Leader' Chen",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
