@@ -5,9 +5,7 @@ import {rostersStore} from '$lib/stores';
 export const getLeagueRosters = async (queryLeagueID = leagueID) => {
 	if(get(rostersStore)[queryLeagueID]) {
 		let x = get(rostersStore)[queryLeagueID];
-		x.rosters.sort((a, b) => {
-			return a.roster_id - b.roster_id;
-		});
+		x.rosters.sort((a, b) => a.roster_id - b.roster_id);
 		console.log(x);
 		return x;
 	}
