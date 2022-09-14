@@ -22,6 +22,9 @@ export const getLeagueRosters = async (queryLeagueID = leagueID) => {
 
 const processRosters = (rosters) => {
 	const startersAndReserve = [];
+	rosters.sort((a, b) => {
+		return a.roster_id - b.roster_id
+	});
 	for(const roster of rosters) {
 		for(const starter of roster.starters) {
 			startersAndReserve.push(starter);
