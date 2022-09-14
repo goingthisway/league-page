@@ -1,9 +1,8 @@
 <script context="module">
-	import { getUpcomingDraft, getPreviousDrafts } from '$lib/utils/helper';
+	import { getPreviousDrafts } from '$lib/utils/helper';
 
     export async function load() {
         const previousDraftsData = getPreviousDrafts();
-	
 		return {
 			props: {
         previousDraftsData
