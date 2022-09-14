@@ -30,7 +30,7 @@
 <Row class="contrastRow">
     <Cell class="">
         <div class="clickable team" on:click={() => gotoManager(roster.roster_id)}>
-            <img alt="team avatar" class="teamAvatar clickable" src="https://sleepercdn.com/avatars/thumbs/{user.avatar}" />
+            <img alt="team avatar" class="teamAvatar clickable" src="{user ? (user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`) : 'https://sleepercdn.com/images/v2/icons/player_default.webp'}" />
             <div>
                 {user.metadata.team_name ? user.metadata.team_name : user.display_name}
             </div>
