@@ -24,6 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Richard 'Dicky' 'Supreme Leader' Chen",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -46,6 +47,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Max Salem",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "San Diego", // (optional)
@@ -68,6 +70,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Raymond Bao",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -90,6 +93,7 @@ export const managers = [
     },
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Aidan Van Gieson",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
@@ -112,6 +116,7 @@ export const managers = [
     },
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Austin Kim",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -134,6 +139,7 @@ export const managers = [
     },
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Ian Poe-Yamagata",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -156,6 +162,7 @@ export const managers = [
     },
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Mica Ho",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
@@ -178,6 +185,7 @@ export const managers = [
     },
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Jason Luo",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "B'more", // (optional)
@@ -200,6 +208,7 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Daniel Rim",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -222,6 +231,7 @@ export const managers = [
     },
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Jason Chern",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maryland", // (optional)
@@ -244,6 +254,7 @@ export const managers = [
     },
     {
       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Brian Yang",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
@@ -266,6 +277,7 @@ export const managers = [
     },
     {
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "owner_id": null,
       "name": "Kevin Xu",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
