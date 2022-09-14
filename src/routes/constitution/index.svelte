@@ -102,7 +102,7 @@
 <div class="constitution">
     <h1 class="noUnderscore">LEAGUE OF HORSES CONSTITUTION</h1>
     
-    <h2 class="noUnderscore"><a href="https://docs.google.com/document/d/1CBAjr63X8JkzPCyxYRt-8hGvaSdOfPwAYSD-UaegiAg">League of Horses 2022 Season 
+    <h2 class="noUnderscore"><a href="https://docs.google.com/document/d/1CBAjr63X8JkzPCyxYRt-8hGvaSdOfPwAYSD-UaegiAg">League of Horses 2022 Season</a></h2> 
 
     <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1MjXdye2mM4ieUQhGOE9s_ZMYLrnLOn1aCj9TXC3ziY4">League of Horses 2022 Bonus Schedule</a></h2>
 </div>
