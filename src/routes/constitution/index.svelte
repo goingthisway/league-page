@@ -102,5 +102,5 @@
 <div class="constitution">
     <h1 class="noUnderscore">LEAGUE OF HORSES CONSTITUTION</h1>
     
-    <h2 class="noUnderscore clickable">https://docs.google.com/document/d/1CBAjr63X8JkzPCyxYRt-8hGvaSdOfPwAYSD-UaegiAg</h2>
+    <h2 class="noUnderscore"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">League of Horses 2022 Season Rules</a></h2>
 </div>
