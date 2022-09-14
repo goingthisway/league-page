@@ -2,7 +2,7 @@ import { leagueID } from '$lib/utils/leagueInfo';
 import { get } from 'svelte/store';
 import {users} from '$lib/stores';
 
-var x = 0;
+let x = 0;
 let userInfo = {};
 
 const getLeagueUsersHelper = async (queryLeagueID = leagueID) => {
