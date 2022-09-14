@@ -5,7 +5,7 @@ import {users} from '$lib/stores';
 var x = 0;
 let userInfo = {};
 
-export const getLeagueUsersHelper = async (queryLeagueID = leagueID) => {
+const getLeagueUsersHelper = async (queryLeagueID = leagueID) => {
 	if(get(users)[queryLeagueID]) {
 		return get(users)[queryLeagueID];
 	}
@@ -29,9 +29,9 @@ const processUsers = (rawUsers) => {
 	return finalUsers;
 }
 
-export const getLeagueUsers = (x) => {
+export const getLeagueUsers = async (x) => {
 	if(x == 0){
-		userInfo = getLeagueUsersHelper();
+		userInfo = await getLeagueUsersHelper();
 		x = 1;
 	}
 	return userInfo;
