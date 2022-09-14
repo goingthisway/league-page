@@ -10,7 +10,7 @@
     for(const roster of rosters) {
         const user = users[roster.owner_id];
         currentManagers[roster.roster_id] = {
-            avatar: `${user.metadata.avatar}`,
+            avatar: user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
             name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
         }
     }

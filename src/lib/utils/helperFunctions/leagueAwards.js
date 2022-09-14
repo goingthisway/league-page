@@ -23,7 +23,7 @@ export const getAwards = async () => {
 		const user = users[roster.owner_id];
 		if(user) {
 			currentManagers[roster.roster_id] = {
-				avatar: `${user.metadata.avatar}`,
+				avatar: user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
 				name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
 			}
 		} else {
@@ -185,7 +185,7 @@ const buildDivisionsAndManagers = ({usersData, previousRosters, leagueMetadata, 
 		}
 		if(user) {
 			if(user.avatar) {
-				prevManagers[roster.roster_id].avatar = `${user.metadata.avatar}`;
+				prevManagers[roster.roster_id].avatar = user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,;
 			} else {
 				prevManagers[roster.roster_id].avatar = 'https://sleepercdn.com/images/v2/icons/player_default.webp';
 			}

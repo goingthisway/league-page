@@ -263,7 +263,7 @@
 			<Row>
 				<Cell colspan=4 class="r_{division} clickable">
 					<h3 on:click={() => gotoManager(roster.roster_id)}>
-						<img alt="team avatar" class="teamAvatar" src="{user ? `${user.metadata.avatar}` : 'https://sleepercdn.com/images/v2/icons/player_default.webp'}" />
+						<img alt="team avatar" class="teamAvatar" src="{user ? user.metadata.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`, : 'https://sleepercdn.com/images/v2/icons/player_default.webp'}" />
 						{user?.metadata.team_name ? user.metadata.team_name : (user?.display_name ? user?.display_name : 'No Manager')}
 					</h3>
 
