@@ -58,7 +58,7 @@ export const getAvatar = (users, author) => {
         return 'managers/question.jpg';
     }
 
-    return ${user.metadata.avatar};
+    return `${user.metadata.avatar}`;
 }
 
 export const parseDate = (rawDate) => {

@@ -246,7 +246,7 @@ const analyzeRosters = ({year, roster, users, regularSeason, originalManagers}) 
 
 	if(user) {
 		originalManagers[rosterID] = {
-			avatar: ${user.metadata.avatar},
+			avatar: `${user.metadata.avatar}`,
 			name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
 		}
 	} else {
