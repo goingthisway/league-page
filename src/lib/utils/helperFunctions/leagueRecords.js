@@ -246,7 +246,7 @@ const analyzeRosters = ({year, roster, users, regularSeason, originalManagers}) 
 
 	if(user) {
 		originalManagers[rosterID] = {
-			avatar: `https://sleepercdn.com/avatars/thumbs/${user.metadata.avatar}`,
+			avatar: `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
 			name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
 		}
 	} else {

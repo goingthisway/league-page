@@ -85,7 +85,7 @@ const processMatchups = (inputMatchups, rosters, users, week) => {
 		matchups[match.matchup_id].push({
 			manager: {
 				name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
-				avatar: `https://sleepercdn.com/avatars/thumbs/${user.metadata.avatar}`,
+				avatar: `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
 			},
 			starters: match.starters,
 			points: match.starters_points,

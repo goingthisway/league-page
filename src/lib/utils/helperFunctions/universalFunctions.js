@@ -58,7 +58,7 @@ export const getAvatar = (users, author) => {
         return 'managers/question.jpg';
     }
 
-    return `https://sleepercdn.com/avatars/thumbs/${user.metadata.avatar}`;
+    return `https://sleepercdn.com/avatars/thumbs/${user.avatar}`;
 }
 
 export const parseDate = (rawDate) => {
