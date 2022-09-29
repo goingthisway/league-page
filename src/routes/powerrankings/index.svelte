@@ -114,17 +114,17 @@
             var twentyOne = "<table><tr><td>21</td></tr></table>";
             switch(season)
             {
-                case "2022":
+                case "twentyTwo":
                     document.getElementById("myTableContainer").innerHTML = twentyTwo
-                case "2021":
+                case "twentyOne":
                     document.getElementById("myTableContainer").innerHTML = twentyOne
                 break;
             }
         }
 </script>
 <select name="dropdown" id="dropdown" onLoad="handleSelect(this.value)" onChange="handleSelect(this.value)">
-<option value="2022" selected>2022</option>
-<option value="2021">2021</option>
+<option value="2022" selected>twentyTwo</option>
+<option value="2021">twentyOne</option>
 </select>
  <div id="myTableContainer"></div>
 
