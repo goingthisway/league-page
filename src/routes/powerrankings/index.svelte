@@ -113,5 +113,5 @@
     </select>
 </div>
 
-<div id="seasonContent"></div>
+<div id="seasonContent">2022</div>
 </div>
