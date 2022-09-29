@@ -108,23 +108,23 @@
 
 <body>
    <script>
-      function handleSelect(account) {
-        var savings = "<table><tr><td>test</td></tr></table>";
-        switch(account)
+        function handleSelect(season) 
         {
-       case "Savings":
-      document.getElementById("myTableContainer").innerHTML = savings
-      break;
-    }
-     }
+            var twentyTwo = "<table><tr><td>22</td></tr></table>";
+            var twentyOne = "<table><tr><td>21</td></tr></table>";
+            switch(season)
+            {
+                case "2022":
+                    document.getElementById("myTableContainer").innerHTML = twentyTwo
+                case "2021":
+                    document.getElementById("myTableContainer").innerHTML = twentyOne
+                break;
+            }
+        }
 </script>
-<select name="acctDropdown" id="acctDropdown" onLoad="handleSelect(this.value)" onChange="handleSelect(this.value)">
-<option value="View All" selected>View All</option>
-<option value="Certificates of Deposit (CDs)">Certificates of Deposit (CDs)</option>
-<option value="Individual Retirement Account (IRA)">Individual Retirement Account (IRA)</option>
-<option value="Money Market">Money Market</option>
-<option value="Savings">Savings</option>
-<option value="Checking">Checking</option>
+<select name="dropdown" id="dropdown" onLoad="handleSelect(this.value)" onChange="handleSelect(this.value)">
+<option value="2022" selected>2022</option>
+<option value="2021">2021</option>
 </select>
  <div id="myTableContainer"></div>
 
