@@ -106,27 +106,12 @@
 
     <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1MjXdye2mM4ieUQhGOE9s_ZMYLrnLOn1aCj9TXC3ziY4">League of Horses 2022 Bonus Schedule</a></h2>
 
-<body>
-   <script>
-        function handleSelect(season) 
-        {
-            var twentyTwo = "<table><tr><td>22</td></tr></table>";
-            var twentyOne = "<table><tr><td>21</td></tr></table>";
-            switch(season)
-            {
-                case "twentyTwo":
-                    document.getElementById("myTableContainer").innerHTML = twentyTwo
-                case "twentyOne":
-                    document.getElementById("myTableContainer").innerHTML = twentyOne
-                break;
-            }
-        }
-</script>
-<select name="dropdown" id="dropdown" onLoad="handleSelect(this.value)" onChange="handleSelect(this.value)">
-<option value="2022" selected>twentyTwo</option>
-<option value="2021">twentyOne</option>
-</select>
- <div id="myTableContainer"></div>
+<div>
+    <select onchange="if(selectedIndex!=0)document.getElementById('seasonContent').innerHTML=options[selectedIndex].value;">
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+    </select>
+</div>
 
- </body>
+<div id="seasonContent"></div>
 </div>
