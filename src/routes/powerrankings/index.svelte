@@ -105,4 +105,28 @@
     <h2 class="noUnderscore"><a href="https://docs.google.com/document/d/1CBAjr63X8JkzPCyxYRt-8hGvaSdOfPwAYSD-UaegiAg">League of Horses 2022 Season</a></h2> 
 
     <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1MjXdye2mM4ieUQhGOE9s_ZMYLrnLOn1aCj9TXC3ziY4">League of Horses 2022 Bonus Schedule</a></h2>
+
+<body>
+   <script>
+      function handleSelect(account) {
+        var savings = "<table><tr><td>test</td></tr></table>";
+        switch(account)
+        {
+       case "Savings":
+      document.getElementById("myTableContainer").innerHTML = savings
+      break;
+    }
+     }
+</script>
+<select name="acctDropdown" id="acctDropdown" onLoad="handleSelect(this.value)" onChange="handleSelect(this.value)">
+<option value="View All" selected>View All</option>
+<option value="Certificates of Deposit (CDs)">Certificates of Deposit (CDs)</option>
+<option value="Individual Retirement Account (IRA)">Individual Retirement Account (IRA)</option>
+<option value="Money Market">Money Market</option>
+<option value="Savings">Savings</option>
+<option value="Checking">Checking</option>
+</select>
+ <div id="myTableContainer"></div>
+
+ </body>
 </div>
