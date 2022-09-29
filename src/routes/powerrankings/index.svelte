@@ -107,8 +107,7 @@
     <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1MjXdye2mM4ieUQhGOE9s_ZMYLrnLOn1aCj9TXC3ziY4">League of Horses 2022 Bonus Schedule</a></h2>
 
 <div>
-    <select onchange="if(selectedIndex!=0)document.getElementById('seasonContent').innerHTML=options[selectedIndex].value;">
-        <option value="">2022</option>
+    <select onchange="document.getElementById('seasonContent').innerHTML=options[selectedIndex].value;">
         <option value="2022">2022</option>
         <option value="2021">2021</option>
     </select>
