@@ -113,7 +113,7 @@
         <option value="2021">2021</option>
     </select>
 </div>
-<div id="seasonContent">2022</div>
+<div id="seasonContent" style="visibility: hidden">2022</div>
 <script type="text/javascript">
     function changeDisplay(view1){
         console.log(document.getElementById("twentyTwoTable"));
