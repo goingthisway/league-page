@@ -102,7 +102,7 @@
 <div class="powerrankings">
     <h1 class="noUnderscore" style="font-weight: bold">League of Horses Power Rankings</h1>
     <div>Each week, the lowest scorer in the league is required to write a weekly recap or power ranking of the league. This page
-    is an archive of all previous power rankings. </div>
+    is an archive of all previous power rankings. </div><p></p>
 <div>
     <a style="color: black;">Season:</a>
     <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
