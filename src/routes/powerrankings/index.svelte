@@ -97,12 +97,6 @@
     p {
         color: #777;
     }
-    .twoTable {
-        visibility: visible;
-    }
-    .oneTable {
-        visibility: hidden;
-    }  
 </style>
 
 <div class="powerrankings">
@@ -140,7 +134,7 @@
         }
     }
 </script>
-<div class="twoTable" id="twentyTwoTable">
+<div class="twoTable" id="twentyTwoTable" style="visibility: visible;">
     <table>
       <tr>
         <th>Link</th>
@@ -160,7 +154,7 @@
       </tr>
     </table>
 </div>
-<div class="oneTable" id="twentyOneTable">
+<div class="oneTable" id="twentyOneTable" style="visibility: visible;">
 <table>
   <tr>
     <th>Link</th>
