@@ -125,10 +125,12 @@
         console.log(document.getElementById("twentyTwoTable"));
         console.log(view1);
         if(view1 == "2022"){
+            console.log("in 2022")
             document.getElementById("twentyTwoTable").style.visibility = 'visible';
             document.getElementById("twentyOneTable").style.visibility = 'hidden';
         }
         else{
+            console.log("in 2021")
             document.getElementById("twentyTwoTable").style.visibility = 'visible';
             document.getElementById("twentyOneTable").style.visibility = 'hidden';
         }
