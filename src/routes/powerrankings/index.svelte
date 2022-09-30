@@ -108,10 +108,10 @@
     p {
         color: #777;
     }
-    table.22Table {
+    table.twoTable {
         visibility: visible;
     }
-    table.21table {
+    table.oneTable {
         visibility: hidden;
     }  
 </style>
@@ -132,7 +132,7 @@
 
 <div id="seasonContent">2022</div>
 
-<table class="22Table">
+<table class="twoTable">
   <tr>
     <th>Link</th>
     <th>Author</th>
@@ -151,7 +151,7 @@
   </tr>
 </table>
 
-<table class="21Table">
+<table class="oneTable">
   <tr>
     <th>Link</th>
     <th>Author</th>
