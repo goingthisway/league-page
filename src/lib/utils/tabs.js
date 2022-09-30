@@ -42,7 +42,7 @@ export const tabs = [
                 dest: '/standings',
             },
             {
-                icon: 'leaderboard',
+                icon: 'power',
                 label: 'Power Rankings',
                 dest: '/powerrankings',
             },
