@@ -16,6 +16,7 @@
     const digestStarters = (x, p) => {
         home = matchup[0];
         away = matchup[1];
+        console.log(home.manager)
         const homeStarters = matchupWeek ? home.starters[matchupWeek] : home.starters;
         const awayStarters = matchupWeek ? away.starters[matchupWeek] : away.starters;
         const homePoints = matchupWeek ? home.points[matchupWeek] : home.points;
