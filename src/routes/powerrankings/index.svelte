@@ -107,30 +107,30 @@
     <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1MjXdye2mM4ieUQhGOE9s_ZMYLrnLOn1aCj9TXC3ziY4">League of Horses 2022 Bonus Schedule</a></h2>
 
 <div>
-    <select onchange="document.getElementById('seasonContent').innerHTML=options[selectedIndex].value;">
-        <option value="2022">
-            <table>
-              <tr>
-                <th>Link</th>
-                <th>Author</th>
-              </tr>
-              <tr>
-                <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></td>
-                <td>Chern</td>
-              </tr>
-              <tr>
-                <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
-                <td>Max</td>
-              </tr>
-              <tr>
-                <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
-                <td>Luo</td>
-              </tr>
-            </table>
-        </option>
+    <select onchange="document.getElementById('seasonContent').innerHTML=document.getElementById('22Table');">
+        <option value="2022">2022</option>
         <option value="2021">2021</option>
     </select>
 </div>
 
 <div id="seasonContent">2022</div>
+
+<table id="22Table">
+  <tr>
+    <th>Link</th>
+    <th>Author</th>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></td>
+    <td>Chern</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
+    <td>Max</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
+    <td>Luo</td>
+  </tr>
+</table>
 </div>
