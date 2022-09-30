@@ -122,6 +122,9 @@
 <div id="seasonContent">2022</div>
 <script type="text/javascript">
     function changeDisplay(view1){
+        console.log(document.getElementById("twoTable"));
+        console.log(view1);
+        console.log(view2);
         if(view1 == "2022"){
             document.getElementById("twoTable").style.visibility = 'visible';
             document.getElementById("oneTable").style.visibility = 'hidden';
