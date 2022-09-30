@@ -193,8 +193,8 @@
     <td>Richard</td>
   </tr>
   <tr>
-    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 10 - Fine Paid</a></td>
-    <td>Richard</td>
+    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 10</a></td>
+    <td>Richard - Fine Paid</td>
   </tr>
   <tr>
     <td><a href="https://docs.google.com/document/d/1rdYIlc4l7n_uKGorLjAwHHu2eMKWWpbqioZWiMNYiSM">Week 11</a></td>
@@ -209,8 +209,8 @@
     <td>Brian</td>
   </tr>
   <tr>
-    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 14 - Fine Paid</a></td>
-    <td>Kevin</td>
+    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 14</a></td>
+    <td>Kevin - Fine Paid</td>
   </tr>
   <tr>
     <td><a href="https://docs.google.com/document/d/1n4EfMWPwySH5826jgRxWC03fiQSgTQAMc84CALbyR04">Week 15</a></td>
