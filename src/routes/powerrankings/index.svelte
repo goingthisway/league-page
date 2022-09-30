@@ -97,10 +97,10 @@
     p {
         color: #777;
     }
-    table.twoTable {
+    .twoTable {
         visibility: visible;
     }
-    table.oneTable {
+    .oneTable {
         visibility: hidden;
     }  
 </style>
@@ -140,26 +140,28 @@
         }
     }
 </script>
-<table class="twoTable" id="twentyTwoTable">
-  <tr>
-    <th>Link</th>
-    <th>Author</th>
-  </tr>
-  <tr>
-    <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></td>
-    <td>Chern</td>
-  </tr>
-  <tr>
-    <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
-    <td>Max</td>
-  </tr>
-  <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
-    <td>Luo</td>
-  </tr>
-</table>
-
-<table class="oneTable" id="twentyOneTable">
+<div class="twoTable" id="twentyTwoTable">
+    <table>
+      <tr>
+        <th>Link</th>
+        <th>Author</th>
+      </tr>
+      <tr>
+        <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></td>
+        <td>Chern</td>
+      </tr>
+      <tr>
+        <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
+        <td>Max</td>
+      </tr>
+      <tr>
+        <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
+        <td>Luo</td>
+      </tr>
+    </table>
+</div>
+<div class="oneTable" id="twentyOneTable">
+<table>
   <tr>
     <th>Link</th>
     <th>Author</th>
@@ -177,5 +179,5 @@
     <td>Luo</td>
   </tr>
 </table>
-
+</div>
 </div>
