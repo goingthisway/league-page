@@ -49,7 +49,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        max-width: 550px;
+        max-width: 650px;
         margin: 10px auto;
         text-align: center;
     }
