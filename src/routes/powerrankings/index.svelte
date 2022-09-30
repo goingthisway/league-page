@@ -123,12 +123,12 @@
 <script type="text/javascript">
     function changeDisplay(view1){
         if(view1 == "2022"){
-            document.getElementById("2022").style.visibility = 'visible';
-            document.getElementById("2021").style.visibility = 'hidden';
+            document.getElementById("twoTable").style.visibility = 'visible';
+            document.getElementById("oneTable").style.visibility = 'hidden';
         }
         else{
-            document.getElementById("2021").style.visibility = 'visible';
-            document.getElementById("2022").style.visibility = 'hidden';
+            document.getElementById("twoTable").style.visibility = 'visible';
+            document.getElementById("oneTable").style.visibility = 'hidden';
         }
     }
 </script>
