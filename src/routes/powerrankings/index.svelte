@@ -118,17 +118,21 @@
     function changeDisplay(view1){
         console.log(document.getElementById("twentyTwoTable"));
         console.log(view1);
+        twenty_two = document.getElementById("twentyTwoTable");
+        twenty_one = document.getElementById("twentyOneTable");
         if(view1 == "2022"){
             console.log("in 2022")
-            document.getElementById("twentyTwoTable").style.visibility = 'visible';
-            document.getElementById("twentyOneTable").style.visibility = 'hidden';
+            twenty_two.style.visibility = 'visible';
+            twenty_one.style.visibility = 'hidden';
             console.log(document.getElementById("twentyTwoTable"));
             console.log(document.getElementById("twentyOneTable"));
         }
         else{
             console.log("in 2021")
-            document.getElementById("twentyTwoTable").style.visibility = 'hidden';
-            document.getElementById("twentyOneTable").style.visibility = 'visible';
+            twenty_two.style.visibility = 'hidden';
+            twenty_one.style.visibility = 'visible';
+            var parent = twenty_two.parentNode;
+            parent.insertBefore(twenty_one, parent.firstChild);
             console.log(document.getElementById("twentyTwoTable"));
             console.log(document.getElementById("twentyOneTable"));
         }
