@@ -127,8 +127,8 @@
         }
         else{
             console.log("in 2021")
-            document.getElementById("twentyTwoTable").style.visibility = 'visible';
-            document.getElementById("twentyOneTable").style.visibility = 'hidden';
+            document.getElementById("twentyTwoTable").style.visibility = 'hidden';
+            document.getElementById("twentyOneTable").style.visibility = 'visible';
             console.log(document.getElementById("twentyTwoTable"));
             console.log(document.getElementById("twentyOneTable"));
         }
@@ -154,7 +154,7 @@
       </tr>
     </table>
 </div>
-<div class="oneTable" id="twentyOneTable" style="visibility: visible;">
+<div class="oneTable" id="twentyOneTable" style="visibility: hidden;">
 <table>
   <tr>
     <th>Link</th>
