@@ -344,7 +344,7 @@
                             <span />
                         {/if}
                         {#if matchup.manager || (!matchups.bye && !matchup.manager)}
-                            <img class="avatar{!matchups.bye && !matchup.manager ? ' avatarBye': ''}" src={matchup.manager?.avatar || '/managers/question.jpg'} alt="team avatar" />
+                            <img class="avatar{!matchups.bye && !matchup.manager ? ' avatarBye': ''}" src="{matchup.manager.avatar ? matchup.manager.avatar : `https://sleepercdn.com/avatars/thumbs/${matchup.manager?.avatar}`" || '/managers/question.jpg'} alt="team avatar" />
                         {/if}
                         {#if matchup.manager}
                             <div class="points">
