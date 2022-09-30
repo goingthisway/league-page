@@ -1,5 +1,16 @@
 <script context="module">
   export const prerender = true;
+
+    function changeDisplay(view1){
+        if(view1 == "2022"){
+        document.getElementById("2022").style.visibility = 'visible';
+        document.getElementById("2021").style.visibility = 'hidden';
+        }
+        else{
+        document.getElementById("2021").style.visibility = 'visible';
+        document.getElementById("2022").style.visibility = 'hidden';
+        }
+    }
 </script>
 
 <script>
@@ -15,19 +26,6 @@
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({left: 0, top, behavior: 'smooth'});
-    }
-</script>
-
-<script>
-    function changeDisplay(view1){
-        if(view1 == "2022"){
-        document.getElementById("2022").style.visibility = 'visible';
-        document.getElementById("2021").style.visibility = 'hidden';
-        }
-        else{
-        document.getElementById("2021").style.visibility = 'visible';
-        document.getElementById("2022").style.visibility = 'hidden';
-        }
     }
 </script>
 
