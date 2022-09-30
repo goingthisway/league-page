@@ -112,7 +112,7 @@
         <option value="2021">2021</option>
     </select>
 </div>
-
+</div>
 <div id="seasonContent">2022</div>
 <script type="text/javascript">
     function changeDisplay(view1){
@@ -177,5 +177,4 @@
     <td>Luo</td>
   </tr>
 </table>
-</div>
 </div>
