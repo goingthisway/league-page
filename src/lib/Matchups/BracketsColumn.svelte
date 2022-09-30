@@ -93,7 +93,7 @@
 
     const getPlayoffName = (manager, bye) => {
         if(manager?.name) {
-            console.log(matchup.manager)
+            console.log(manager)
             return manager.name;
         }
         if(bye) {
