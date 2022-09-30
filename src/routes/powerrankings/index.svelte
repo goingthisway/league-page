@@ -116,25 +116,17 @@
 <div id="seasonContent" style="visibility: hidden">2022</div>
 <script type="text/javascript">
     function changeDisplay(view1){
-        console.log(document.getElementById("twentyTwoTable"));
-        console.log(view1);
         twenty_two = document.getElementById("twentyTwoTable");
         twenty_one = document.getElementById("twentyOneTable");
         if(view1 == "2022"){
-            console.log("in 2022")
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'hidden';
             twenty_two.after(twenty_one);
-            console.log(document.getElementById("twentyTwoTable"));
-            console.log(document.getElementById("twentyOneTable"));
         }
         else{
-            console.log("in 2021")
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'visible';
             twenty_one.after(twenty_two);
-            console.log(document.getElementById("twentyTwoTable"));
-            console.log(document.getElementById("twentyOneTable"));
         }
     }
 </script>
