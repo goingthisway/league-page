@@ -93,6 +93,7 @@
 
     const getPlayoffName = (manager, bye) => {
         if(manager?.name) {
+            console.log(matchup.manager)
             return manager.name;
         }
         if(bye) {
@@ -345,7 +346,6 @@
                         {/if}
                         {#if matchup.manager || (!matchups.bye && !matchup.manager)}
                             <img class="avatar{!matchups.bye && !matchup.manager ? ' avatarBye': ''}" src={matchup.manager?.avatar || '/managers/question.jpg'} alt="team avatar" />
-                            console.log(matchup.manager)
                         {/if}
                         {#if matchup.manager}
                             <div class="points">
