@@ -122,20 +122,19 @@
 <div id="seasonContent">2022</div>
 <script type="text/javascript">
     function changeDisplay(view1){
-        console.log(document.getElementById("twoTable"));
+        console.log(document.getElementById("twentyTwoTable"));
         console.log(view1);
-        console.log(view2);
         if(view1 == "2022"){
-            document.getElementById("twoTable").style.visibility = 'visible';
-            document.getElementById("oneTable").style.visibility = 'hidden';
+            document.getElementById("twentyTwoTable").style.visibility = 'visible';
+            document.getElementById("twentyOneTable").style.visibility = 'hidden';
         }
         else{
-            document.getElementById("twoTable").style.visibility = 'visible';
-            document.getElementById("oneTable").style.visibility = 'hidden';
+            document.getElementById("twentyTwoTable").style.visibility = 'visible';
+            document.getElementById("twentyOneTable").style.visibility = 'hidden';
         }
     }
 </script>
-<table class="twoTable">
+<table class="twoTable" id="twentyTwoTable">
   <tr>
     <th>Link</th>
     <th>Author</th>
@@ -154,7 +153,7 @@
   </tr>
 </table>
 
-<table class="oneTable">
+<table class="oneTable" id="twentyOneTable">
   <tr>
     <th>Link</th>
     <th>Author</th>
