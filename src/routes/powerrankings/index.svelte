@@ -145,11 +145,11 @@
         <th>Author</th>
       </tr>
       <tr>
-        <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1</a></td>
+        <td><a href="https://docs.google.com/document/d/1t1zDomETXJcNxgbeAsJbtff9QHe6iYzegB90TFjxU4Q">Week 1</a></td>
         <td>Chern</td>
       </tr>
       <tr>
-        <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2</a></td>
+        <td><a href="https://docs.google.com/document/d/1MpY-6Kv4ArpVlBAjCF0_soH-DNkKmAeZu_e8Kivf_z4">Week 2</a></td>
         <td>Max</td>
       </tr>
       <tr>
@@ -169,56 +169,64 @@
     <td>Max</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2</a></td>
+    <td><a href="https://docs.google.com/document/d/1wKWTQX0O_paTfkGgMJ_h18ShdijvkZK8e8VnQIDhAH8">Week 2</a></td>
     <td>Max</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1j9urHUNMHyXNiLp9iiab43CbF9m4rjoaA9Awjep5R9o">Week 3</a></td>
+    <td>Richard</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 4</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1AU5uBy7uKWws_kBnsSdV0_AUVCV1NhugNL3j5Xoflp8">Week 4</a></td>
+    <td>Aidan</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 5</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1K-bHwd9LsWyTMVEw2Es363ARuof476aV4pQQ4hErn8g">Week 5</a></td>
+    <td>Richard</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 6</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/17PluiqHJdDJlCgyDg0yCMJk3a2znjC-feWKs2r72XIQ">Week 6</a></td>
+    <td>Max</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 7</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1u0X-OEvRkI4QSd7hRbl-OQa-tFakvICTWgkf40pKmXI">Week 7</a></td>
+    <td>Austin</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 8</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1GkppIAwKjfgy4NTT7Lx3LtDCXb2ILt-dFpvqNa39UZ0">Week 8</a></td>
+    <td>Aidan</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 9</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1VQbRyd2SvCeIn8dSC-Bzci8tpohaVJqcqcrVF21IdrM">Week 9</a></td>
+    <td>Richard</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 10</a></td>
-    <td>Luo</td>
+    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 10 - Fine Paid</a></td>
+    <td>Richard</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 11</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1rdYIlc4l7n_uKGorLjAwHHu2eMKWWpbqioZWiMNYiSM">Week 11</a></td>
+    <td>Austin</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 12</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1n4EfMWPwySH5826jgRxWC03fiQSgTQAMc84CALbyR04">Week 12</a></td>
+    <td>Brian</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 13</a></td>
-    <td>Luo</td>
+    <td><a href="https://docs.google.com/document/d/1n4EfMWPwySH5826jgRxWC03fiQSgTQAMc84CALbyR04">Week 13</a></td>
+    <td>Brian</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 14</a></td>
-    <td>Luo</td>
+    <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 14 - Fine Paid</a></td>
+    <td>Kevin</td>
+  </tr>
+  <tr>
+    <td><a href="https://docs.google.com/document/d/1n4EfMWPwySH5826jgRxWC03fiQSgTQAMc84CALbyR04">Week 15</a></td>
+    <td>Brian</td>
+  </tr>
+  <tr>
+    <td><a href="https://docs.google.com/document/d/1n4EfMWPwySH5826jgRxWC03fiQSgTQAMc84CALbyR04">Week 16</a></td>
+    <td>Brian</td>
   </tr>
 </table>
 </div>
