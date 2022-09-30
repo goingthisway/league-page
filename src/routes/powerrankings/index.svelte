@@ -100,6 +100,7 @@
 </style>
 
 <div class="powerrankings">
+    <h1 class="noUnderscore">League of Horses Power Rankings</h1>
 <div>
     <a style="color: black;">Season:</a>
     <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
