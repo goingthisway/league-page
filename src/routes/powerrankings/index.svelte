@@ -142,7 +142,7 @@
         <td>Max</td>
       </tr>
       <tr>
-        <td>Week 3 Pending...</a></td>
+        <td>Week 3 Pending...</td>
         <td>Luo</td>
       </tr>
     </table>
