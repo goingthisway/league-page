@@ -145,15 +145,15 @@
         <th>Author</th>
       </tr>
       <tr>
-        <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></td>
+        <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1</a></td>
         <td>Chern</td>
       </tr>
       <tr>
-        <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
+        <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2</a></td>
         <td>Max</td>
       </tr>
       <tr>
-        <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
+        <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3</a></td>
         <td>Luo</td>
       </tr>
     </table>
@@ -165,15 +165,59 @@
     <th>Author</th>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 100 League Report</a></td>
-    <td>Chern</td>
-  </tr>
-  <tr>
-    <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></td>
+    <td><a href="https://docs.google.com/document/d/1XocBwsFSVmf2-Ghge-lMsFZzdOddLG8s109xJBWQFvM">Week 1</a></td>
     <td>Max</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></td>
+    <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2</a></td>
+    <td>Max</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 4</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 5</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 6</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 7</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 8</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 9</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 10</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 11</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 12</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 13</a></td>
+    <td>Luo</td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 14</a></td>
     <td>Luo</td>
   </tr>
 </table>
