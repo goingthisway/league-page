@@ -158,16 +158,6 @@
                 <HomePost />
             {/if}
         </div>
-        <PowerRankings />
-        <div class="text">
-            <p></p>
-            <p></p>
-            <p></p>
-            <h3><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5/view?usp=sharing">Week 1 League Report</a></h3>
-            <h3><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L/view?usp=sharing">Week 2 League Report</a></h3>
-            <h3><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV/view?usp=sharing">Week 3 League Report</a></h3>
-            
-        </div>
     </div>
     
     <div class="leagueData">

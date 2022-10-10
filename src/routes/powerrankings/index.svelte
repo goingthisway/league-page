@@ -132,18 +132,27 @@
       <tr>
         <th>Link</th>
         <th>Author</th>
+        <th>Weekly Metrics</th>
       </tr>
       <tr>
         <td><a href="https://docs.google.com/document/d/1t1zDomETXJcNxgbeAsJbtff9QHe6iYzegB90TFjxU4Q">Week 1</a></td>
         <td>Chern</td>
+        <td><a href="https://drive.google.com/file/d/1KcHl-yplK6Xj6YHD0sXdaVwMw_xao6C5">Week 1 League Metrics</a></td>
       </tr>
       <tr>
         <td><a href="https://docs.google.com/document/d/1MpY-6Kv4ArpVlBAjCF0_soH-DNkKmAeZu_e8Kivf_z4">Week 2</a></td>
         <td>Max</td>
+        <td><a href="https://drive.google.com/file/d/1OuxL9bX7-vBGs2bbZjm_rAfXmp4AZX2L">Week 2 League Metrics</a></td>
       </tr>
       <tr>
-        <td>Week 3 Pending...</td>
+        <td><a href="https://docs.google.com/document/d/171EsAGTRMlr0WGhesU2kIy0j9rMhgG1wubSgKOwr1Dc">Week 3</a></td>
         <td>Luo</td>
+        <td><a href="https://drive.google.com/file/d/18dG0v5h3Pjgi8hIlCqyBSr70GrGHnSjV">Week 3 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1pHwwz252W7JimREtVMwLQsRRxDMTFnkCaIolshDeM0k">Week 4</a></td>
+        <td>Ian</td>
+        <td><a href="https://drive.google.com/file/d/1IPRSqdzPTBWqY50reVAy9xVu9yj69Lzc">Week 4 League Metrics</a></td>
       </tr>
     </table>
 </div>
