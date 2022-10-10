@@ -158,6 +158,7 @@
                 <HomePost />
             {/if}
         </div>
+        <PowerRankings />
     </div>
     
     <div class="leagueData">
