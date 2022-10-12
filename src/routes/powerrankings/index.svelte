@@ -154,6 +154,11 @@
         <td>Ian</td>
         <td><a href="https://drive.google.com/file/d/1IPRSqdzPTBWqY50reVAy9xVu9yj69Lzc">Week 4 League Metrics</a></td>
       </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1pHwwz252W7JimREtVMwLQsRRxDMTFnkCaIolshDeM0k">Week 5</a></td>
+        <td>Bao</td>
+        <td><a href="https://drive.google.com/file/d/1vH3QoPqgVjFufTsdAgsPzZJTdBlh5M_d">Week 5 League Metrics</a></td>
+      </tr>
     </table>
 </div>
 <div class="oneTable" id="twentyOneTable" style="visibility: hidden;">
