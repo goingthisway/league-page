@@ -160,7 +160,7 @@
         <td><a href="https://drive.google.com/file/d/1vH3QoPqgVjFufTsdAgsPzZJTdBlh5M_d">Week 5 League Metrics</a></td>
       </tr>
       <tr>
-        <td>Pending...</td>
+        <td><a href="https://docs.google.com/document/d/11_gGFcxn7BRpZBoOWebceRO2xoK26wIg4jzrOEhXKhM">Week 6</a></td>
         <td>Luo</td>
         <td><a href="https://drive.google.com/file/d/1CHpAjVpJHOS33DTwfNzJ5OGIjPQp45Yn">Week 6 League Metrics</a></td>
       </tr>
