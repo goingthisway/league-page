@@ -170,9 +170,14 @@
         <td><a href="https://drive.google.com/file/d/1Q6t2TvTqixepl540TBJN0h1GTzW6VoWK">Week 7 League Metrics</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 8</a></td>
+        <td><a href="https://docs.google.com/document/d/1O64-AkOHNLJu29FAnLO-cRKIo4zLMZ1KZ4p-7XOmS1E">Week 8</a></td>
         <td>Daniel</td>
         <td><a href="https://drive.google.com/file/d/1Mhv6uxZwwxa0POjRpENY6nUSKWBty1a_">Week 8 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 9</a></td>
+        <td>Daniel</td>
+        <td><a href="https://drive.google.com/file/d/1lTs0eOfmXZoHbDeVpITOc7f8TakKldFj">Week 9 League Metrics</a></td>
       </tr>
 
     </table>
