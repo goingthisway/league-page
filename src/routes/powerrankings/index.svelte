@@ -187,7 +187,7 @@
       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 11</a></td>
         <td>Richard</td>
-        <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi-">Week 11 League Metrics</a></td>
+        <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi">Week 11 League Metrics</a></td>
       </tr>
 
     </table>
