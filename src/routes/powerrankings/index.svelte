@@ -184,6 +184,11 @@
         <td>Ian</td>
         <td><a href="https://drive.google.com/file/d/16SUftV3bC2JSjdQkFdalTjEkFHVPvcV-">Week 10 League Metrics</a></td>
       </tr>
+      <tr>
+        <td><a href="https://sneakytime.com/rr/">Week 11</a></td>
+        <td>Richard</td>
+        <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi-">Week 11 League Metrics</a></td>
+      </tr>
 
     </table>
 </div>
