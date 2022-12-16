@@ -199,6 +199,11 @@
         <td>Luo</td>
         <td><a href="https://drive.google.com/file/d/1J7CQvoKNAdwRHSIuU2yA6D1K_AfmcLaC">Week 13 League Metrics</a></td>
       </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 14</a></td>
+        <td>Richard</td>
+        <td><a href="https://drive.google.com/file/d/1KA4YQgrmvZV03JDiQYsGkCP7RfrVnSu_">Week 14 League Metrics</a></td>
+      </tr>
       
 <!--       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 12</a></td>
