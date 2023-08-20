@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the League page for our League of Horses</p>
-  <p>Year 3 of this league has seen a lot of changes. After a contentious voting period, Supreme Leader Dicky has established a dictatorship that is sure to cause no issues all season.</p>
+  <p>We're back for year 4 and a change in the commish role has the league on edge.</p>
 `;
 
 /*   STEP 3   */
@@ -270,7 +270,7 @@ export const managers = [
       "favoritePlayer": 4881, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Just don't come in last this time",
+      "philosophy": "Still avoiding the beer mile",
       "tradingScale": 3, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
