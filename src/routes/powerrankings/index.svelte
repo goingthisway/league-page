@@ -120,6 +120,7 @@
         if(view1 == "2023"){
             twenty_three.before(twenty_two);
             twenty_one.after(twenty_two);
+            twenty_two.after(twenty-three);
             twenty_three.style.visibility = 'visible';
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'hidden';
@@ -127,6 +128,7 @@
         else if(view1 == "2022"){
             twenty_two.before(twenty_three);
             twenty_one.after(twenty_three);
+            twenty_three.after(twenty_two);
             twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'hidden';
@@ -134,6 +136,7 @@
         else{
             twenty_one.before(twenty_three);
             twenty_two.after(twenty_three);
+            twenty_three.after(twenty_one);
             twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'visible';
