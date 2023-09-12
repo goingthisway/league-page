@@ -124,7 +124,7 @@
             twenty_two.after(twenty_three);
             twenty_one.after(twenty_two);
         }
-        elif(view1 == "2022"){
+        else if(view1 == "2022"){
             twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'hidden';
@@ -140,7 +140,7 @@
         }
     }
 </script>
-<div class="twoTable" id="twentyTwoTable" style="visibility: visible;">
+<div class="twoTable" id="twentyThreeTable" style="visibility: visible;">
     <table>
       <tr>
         <th>Link</th>
