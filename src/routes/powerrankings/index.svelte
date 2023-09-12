@@ -106,27 +106,63 @@
 <div>
     <a style="color: black;">Season:</a>
     <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
+        <option value="2023">2023</option>
         <option value="2022">2022</option>
         <option value="2021">2021</option>
     </select>
 </div>
-<div id="seasonContent" style="visibility: hidden">2022</div>
+<div id="seasonContent" style="visibility: hidden">2023</div>
 <script type="text/javascript">
     function changeDisplay(view1){
+        twenty_three = document.getElementById("twentyThreeTable");
         twenty_two = document.getElementById("twentyTwoTable");
         twenty_one = document.getElementById("twentyOneTable");
-        if(view1 == "2022"){
+        if(view1 == "2023"){
+            twenty_three.style.visibility = 'visible';
+            twenty_two.style.visibility = 'hidden';
+            twenty_one.style.visibility = 'hidden';
+            twenty_two.after(twenty_three);
+            twenty_one.after(twenty_two);
+        }
+        elif(view1 == "2022"){
+            twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'hidden';
-            twenty_two.after(twenty_one);
+            twenty_three.after(twenty_one);
+            twenty_two.after(twenty_three);
         }
         else{
+            twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'visible';
-            twenty_one.after(twenty_two);
+            twenty_three.after(twenty_two);
+            twenty_one.after(twenty_three);
         }
     }
 </script>
+<div class="twoTable" id="twentyTwoTable" style="visibility: visible;">
+    <table>
+      <tr>
+        <th>Link</th>
+        <th>Author</th>
+        <th>Weekly Metrics</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 1</a></td>
+        <td>Aidan</td>
+        <td><a href="https://drive.google.com/file/d/1OazgWXr5EcXJ5Uv5fiZcjLGMFP3ngnxY/">Week 1 League Metrics</a></td>
+      </tr>
+      
+<!--       <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 12</a></td>
+        <td>Richard</td>
+        <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi">Week 12 League Metrics</a></td>
+      </tr> -->
+
+    </table>
+</div>
+
+
 <div class="twoTable" id="twentyTwoTable" style="visibility: visible;">
     <table>
       <tr>
