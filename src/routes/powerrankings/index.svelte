@@ -120,19 +120,19 @@
         if(view1 == "2023"){
             twenty_three.before(twenty_two, twenty_one);
             twenty_three.style.visibility = 'visible';
-            twenty_two.style.visibility = 'hidden';
-            twenty_one.style.visibility = 'hidden';
+            twenty_two.style.visibility = 'collapse';
+            twenty_one.style.visibility = 'collapse';
         }
         else if(view1 == "2022"){
             twenty_two.before(twenty_three, twenty_one);
-            twenty_three.style.visibility = 'hidden';
+            twenty_three.style.visibility = 'collapse';
             twenty_two.style.visibility = 'visible';
-            twenty_one.style.visibility = 'hidden';
+            twenty_one.style.visibility = 'collapse';
         }
         else{
             twenty_one.before(twenty_three, twenty_two);
-            twenty_three.style.visibility = 'hidden';
-            twenty_two.style.visibility = 'hidden';
+            twenty_three.style.visibility = 'collapse';
+            twenty_two.style.visibility = 'collapse';
             twenty_one.style.visibility = 'visible';
         }
     }
