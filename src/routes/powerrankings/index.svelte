@@ -122,21 +122,21 @@
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'hidden';
             twenty_two.after(twenty_three);
-            twenty_one.after(twenty_three);
+            twenty_one.after(twenty_two);
         }
         else if(view1 == "2022"){
             twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'hidden';
             twenty_three.after(twenty_two);
-            twenty_two.after(twenty_two);
+            twenty_one.after(twenty_three);
         }
         else{
             twenty_three.style.visibility = 'hidden';
             twenty_two.style.visibility = 'hidden';
             twenty_one.style.visibility = 'visible';
             twenty_three.after(twenty_one);
-            twenty_one.after(twenty_one);
+            twenty_two.after(twenty_three);
         }
     }
 </script>
@@ -163,7 +163,7 @@
 </div>
 
 
-<div class="twoTable" id="twentyTwoTable" style="visibility: visible;">
+<div class="twoTable" id="twentyTwoTable" style="visibility: hidden;">
     <table>
       <tr>
         <th>Link</th>
