@@ -147,7 +147,7 @@
       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 1</a></td>
         <td>Aidan</td>
-        <td><a href="https://drive.google.com/file/d/1OazgWXr5EcXJ5Uv5fiZcjLGMFP3ngnxY/">Week 1 League Metrics</a></td>
+        <td><a href="https://drive.google.com/file/d/1Ju-qwVoLhdgjCaenbsESSaDEkh9YQU4N">Week 1 League Metrics</a></td>
       </tr>
       
 <!--       <tr>
