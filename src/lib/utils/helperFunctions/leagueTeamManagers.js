@@ -53,6 +53,7 @@ export const getLeagueTeamManagers = async () => {
         users: finalUsers,
     }
     teamManagersStore.update(() => response);
+    console.log(response)
     return response;
 }
 
