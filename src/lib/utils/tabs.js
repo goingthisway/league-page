@@ -7,7 +7,7 @@ export const tabs = [
         dest: '/',
     },
     {
-        icon: 'local_fire_department',
+        icon: 'sports',
         label: 'Matchups',
         dest: '/matchups',
     },
@@ -40,6 +40,11 @@ export const tabs = [
                 icon: 'leaderboard',
                 label: 'Standings',
                 dest: '/standings',
+            },
+            {
+                icon: 'local_fire_department',
+                label: 'Rivalry',
+                dest: '/rivalry',
             },
             {
                 icon: 'power',
