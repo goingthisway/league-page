@@ -24,8 +24,17 @@
 <script>
   import LinearProgress from '@smui/linear-progress';
   import { Rivalry } from '$lib/components'
+  import { waitForAll } from '$lib/utils/helper';
 
-  export let rivalryInfo
+  export let data;
+  const {
+        leagueTeamManagerData,
+        playersData,
+        transactionsData,
+        recordsData,
+        playerOne,
+        playerTwo,
+    } = data;
 </script>
 
 <style>
@@ -42,7 +51,7 @@
 </style>
 
 <div class="holder">
-  {#await rivalryInfo}
+  {#await waitForAll(leagueTeamManagerData, playersData, transactionsData, recordsData)}
     <div class="loading">
       <p>Gathering information...</p>
       <br />
