@@ -1,6 +1,6 @@
 <script>
     import { round } from "$lib/utils/helper";
-	import { getAvatarFromTeamManagers, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
+    import { getAvatarFromTeamManagers, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
 
     export let leagueTeamManagers, players, matchCol, playoffsStart, ix, playoffLength, consolation = false, losers = false, numRosters, consolationNum, selected;
 
@@ -264,35 +264,35 @@
 
     /* SVG styling */
 
-	.lineParent {
+    .lineParent {
         top: 0;
         left: 0;
         position: absolute;
-		overflow: visible;
-		width: 1px;
-		height: 1px;
-		pointer-events: none;
-	}
+        overflow: visible;
+        width: 1px;
+        height: 1px;
+        pointer-events: none;
+    }
 
-	.line{
+    .line{
         top: 0;
         left: 0;
-		position: absolute;
-		z-index: 1;
-	}
+        position: absolute;
+        z-index: 1;
+    }
 
     /* media queries */
-	@media (max-width: 1000px) {
+    @media (max-width: 1000px) {
         .match {
             width: 220px;
         }
-	}
+    }
 
-	@media (max-width: 800px) {
+    @media (max-width: 800px) {
         .match {
             width: 180px;
         }
-	}
+    }
 
     @media (max-width: 610px) {
         .match {

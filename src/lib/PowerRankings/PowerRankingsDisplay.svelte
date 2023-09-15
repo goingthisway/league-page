@@ -1,5 +1,5 @@
 <script>
-	import BarChart from '$lib/BarChart.svelte';
+    import BarChart from '$lib/BarChart.svelte';
     import { generateGraph, getTeamFromTeamManagers, round, predictScores, loadPlayers } from '$lib/utils/helper';
     export let nflState, rostersData, leagueTeamManagers, playersInfo, leagueData;
 

@@ -1,6 +1,6 @@
 <script>
     import { goto } from "$app/navigation";
-	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
+    import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
     import {dynasty} from "$lib/utils/leagueInfo"
 
     export let manager, leagueTeamManagers, key;
@@ -129,7 +129,7 @@
         color: #fff;
     }
 
-	@media (max-width: 665px) {
+    @media (max-width: 665px) {
         .name {
             font-size: 0.9em;
             margin-left: 0.5em;
@@ -141,7 +141,7 @@
         }
     }
 
-	@media (max-width: 595px) {
+    @media (max-width: 595px) {
         .manager {
             padding: 0.5em 0;
             margin: 0.3em 0;

@@ -47,6 +47,11 @@ export const tabs = [
                 dest: '/standings',
             },
             {
+                icon: 'power',
+                label: 'Power Rankings',
+                dest: '/powerrankings',
+            },
+            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',

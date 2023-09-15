@@ -155,10 +155,10 @@ export const generateGraph = ({stats, x, stat, header, field, short, secondField
  * @returns {arr|arr} [high, low] an array where the first element is the 10 highest records and the second is the 10 lowest elements
  */
  export const sortHighAndLow = (arr, field) => {
-	const sorted = arr.sort((a, b) => b[field] - a[field]);
-	const high = sorted.slice(0, 10);
-	const low = sorted.slice(-10).reverse();
-	return [high, low]
+    const sorted = arr.sort((a, b) => b[field] - a[field]);
+    const high = sorted.slice(0, 10);
+    const low = sorted.slice(-10).reverse();
+    return [high, low]
 }
 
 /**
@@ -167,7 +167,7 @@ export const generateGraph = ({stats, x, stat, header, field, short, secondField
  * @returns {Object[]} [managerIDs...] an array of manager IDs
  */
 export const getManagers = (roster) => {
-	const managers = [];
+    const managers = [];
     if(roster.owner_id) {
         managers.push(roster.owner_id);
     }
@@ -186,13 +186,13 @@ export const getManagers = (roster) => {
  * @returns {Object} {avatar, name} an object containing a user's avatar image url and their name
  */
 export const getTeamData = (users, ownerID) => {
-	const user = users[ownerID];
-	if(user) {
-		return {
-			avatar: user.metadata?.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
-			name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
-		}
-	}
+    const user = users[ownerID];
+    if(user) {
+        return {
+            avatar: user.metadata?.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
+            name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
+        }
+    }
     return {
         avatar: `https://sleepercdn.com/images/v2/icons/player_default.webp`,
         name: 'Unknown Team',

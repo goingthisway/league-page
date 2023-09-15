@@ -1,6 +1,6 @@
 <script>
     import { gotoManager } from '$lib/utils/helper';
-  	import { Row, Cell } from '@smui/data-table';
+    import { Row, Cell } from '@smui/data-table';
 
     export let columnOrder, team, standing, leagueTeamManagers;
 </script>
@@ -9,14 +9,14 @@
     .clickable {
         cursor: pointer;
     }
-	
-	.teamAvatar {
-		vertical-align: middle;
-		border-radius: 50%;
-		height: 40px;
-		margin-right: 15px;
-		border: 0.25px solid #777;
-	}
+    
+    .teamAvatar {
+        vertical-align: middle;
+        border-radius: 50%;
+        height: 40px;
+        margin-right: 15px;
+        border: 0.25px solid #777;
+    }
 
     :global(.contrastRow) {
         background-color: var(--f8f8f8);
