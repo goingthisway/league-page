@@ -8,7 +8,6 @@ export const matchupsStore = writable({});
 export const records = writable({});
 export const rostersStore = writable({});
 export const transactionsStore = writable({});
-export const teamManagersStore = writable({});
 export const users = writable({});
 export const nflState = writable({});
 export const players = writable({});
