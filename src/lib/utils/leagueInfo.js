@@ -25,7 +25,7 @@ export const managers = [
       
       "managerID": "736325387889610752",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Richard 'Dicky' 'Supreme Leader' Chen",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "All hail our Supreme Leader",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -48,7 +48,7 @@ export const managers = [
       
       "managerID": "735343557082222592",
       "name": "Max Salem",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "San Diego", // (optional)
       "bio": "Spent too much time on this tbh",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -71,7 +71,7 @@ export const managers = [
       
       "managerID": "754448401634066432",
       "name": "Raymond Bao",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "My advisors told me to say this",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -94,7 +94,7 @@ export const managers = [
       
       "managerID": "737865814618865664",
       "name": "Aidan Van Gieson",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Brooklyn", // (optional)
       "bio": "Curses his RBs",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -117,7 +117,7 @@ export const managers = [
       
       "managerID": "871625069749800960",
       "name": "Austin Kim",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "Shotgun Sage. Please like and subscribe",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -140,7 +140,7 @@ export const managers = [
       
       "managerID": "872558936228851712",
       "name": "Ian Poe-Yamagata",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "Not the guy from Chicago",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -163,7 +163,7 @@ export const managers = [
       
       "managerID": "737865483646312448",
       "name": "Mica Ho",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "New York", // (optional)
       "bio": "I'm just here so I don't get fined",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -186,7 +186,7 @@ export const managers = [
       
       "managerID": "737827148827660288",
       "name": "Jason Luo",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "B'more", // (optional)
       "bio": "League of Horses 2021 Champ",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -209,7 +209,7 @@ export const managers = [
       
       "managerID": "872990319250137088",
       "name": "Daniel Rim",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "Chum CEO",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -232,7 +232,7 @@ export const managers = [
       
       "managerID": "737812904035938304",
       "name": "Jason Chern",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Maryland", // (optional)
       "bio": "2020 League of Horses Champ",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -255,7 +255,7 @@ export const managers = [
       
       "managerID": "873015266680926208",
       "name": "Brian Yang",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "League of Horses 2021 Sacko",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -278,7 +278,7 @@ export const managers = [
       
       "managerID": "737856889328660480",
       "name": "Kevin Xu",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      
       "location": "Virginia", // (optional)
       "bio": "ex-chum employee",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
@@ -310,7 +310,7 @@ export const managers = [
     // {
     //   
     //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
