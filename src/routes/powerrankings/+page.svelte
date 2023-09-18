@@ -145,7 +145,7 @@
         <th>Weekly Metrics</th>
       </tr>
       <tr>
-        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 1</a></td>
+        <td><a href="https://docs.google.com/document/d/16ivIEL2z3z9Y2FGfnHlltBON_8PAcXX68CFiD4JufcI">Week 1</a></td>
         <td>Aidan</td>
         <td><a href="https://drive.google.com/file/d/1Ju-qwVoLhdgjCaenbsESSaDEkh9YQU4N">Week 1 League Metrics</a></td>
       </tr>

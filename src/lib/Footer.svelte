@@ -127,5 +127,5 @@
   <span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
   <br />
   <!-- PLEASE DO NOT REMOVE THE BUILT BY -->
-  <span class="creator">Built by <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nicholas Melhado</a><br /></span>
+  <span class="creator">Built by <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a><br /></span>
 </footer>
