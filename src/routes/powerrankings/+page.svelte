@@ -149,6 +149,11 @@
         <td>Aidan</td>
         <td><a href="https://drive.google.com/file/d/1Ju-qwVoLhdgjCaenbsESSaDEkh9YQU4N">Week 1 League Metrics</a></td>
       </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 2</a></td>
+        <td>Luo</td>
+        <td><a href="https://drive.google.com/file/d/1Kkq6BT9tmegCGEhAJJ_azwJAyDC1qPK7">Week 2 League Metrics</a></td>
+      </tr>
       
 <!--       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 12</a></td>
