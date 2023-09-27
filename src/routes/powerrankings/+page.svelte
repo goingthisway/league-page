@@ -153,6 +153,11 @@
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 2</a></td>
         <td>Luo</td>
         <td><a href="https://drive.google.com/file/d/1Kkq6BT9tmegCGEhAJJ_azwJAyDC1qPK7">Week 2 League Metrics</a></td>
+      </tr>      
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 3</a></td>
+        <td>Ian</td>
+        <td><a href="https://drive.google.com/file/d/1LKhg1XKBB8OX_RrV1huuL6GtJpkcavx7">Week 3 League Metrics</a></td>
       </tr>
       
 <!--       <tr>
