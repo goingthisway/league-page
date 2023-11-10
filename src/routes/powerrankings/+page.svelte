@@ -155,9 +155,39 @@
         <td><a href="https://drive.google.com/file/d/1Kkq6BT9tmegCGEhAJJ_azwJAyDC1qPK7">Week 2 League Metrics</a></td>
       </tr>      
       <tr>
-        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 3</a></td>
+        <td><a href="https://docs.google.com/presentation/d/1ibuW4Ht1x1e_nRWJKnRhI9Nr0FG-zf52sEci2d1bBYo">Week 3</a></td>
         <td>Ian</td>
         <td><a href="https://drive.google.com/file/d/1LKhg1XKBB8OX_RrV1huuL6GtJpkcavx7">Week 3 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1UV5Rufv9A7n4EKuj-ZoTziOXszXIswYzfWrwluf9fPg">Week 4</a></td>
+        <td>Luo</td>
+        <td><a href="https://drive.google.com/file/d/1JSPgmRhXvw_e8lj6DJQQetS0Lq4_ioOp">Week 4 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1bcsXtMlWMi-J0Nl5VhX4oGVIbzxtqs0HKvDZeQoSayo">Week 5</a></td>
+        <td>Austin</td>
+        <td><a href="https://drive.google.com/file/d/1i22e6HrD-4x-YEzy1UOIAqsUGfn9kkN4">Week 5 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 6</a></td>
+        <td>Luo (Fine paid)</td>
+        <td><a href="https://drive.google.com/file/d/1iNEVQafJ2ZNYdExKzSSXmm-gVFL_SXDf">Week 6 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 7</a></td>
+        <td>Kevin (Fine paid)</td>
+        <td><a href="https://drive.google.com/file/d/1EyNCC5GAgAPWwWrKvBQUUEZo98f6dRgc">Week 7 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1He2j06HL_nRFYiarSdD1MVcn2Fz7zdlfSYFaaEGCRcY">Week 8</a></td>
+        <td>Austin</td>
+        <td><a href="https://drive.google.com/file/d/1ZcaDczvF3KuA-33Ad1YJ-7J19PUiSy1H">Week 8 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 9</a></td>
+        <td>Brian</td>
+        <td><a href="https://drive.google.com/file/d/1Bp-os0Nuz38Yy0BqN2fbjz7Ph6oWToSq/view?usp=sharing">Week 9 League Metrics</a></td>
       </tr>
       
 <!--       <tr>
