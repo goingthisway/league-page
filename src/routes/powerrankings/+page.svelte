@@ -186,7 +186,7 @@
       </tr>
       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 9</a></td>
-        <td>Brian</td>
+        <td>Brian (Fine paid)</td>
         <td><a href="https://drive.google.com/file/d/1Bp-os0Nuz38Yy0BqN2fbjz7Ph6oWToSq">Week 9 League Metrics</a></td>
       </tr>
       <tr>
