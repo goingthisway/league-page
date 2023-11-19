@@ -187,7 +187,12 @@
       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 9</a></td>
         <td>Brian</td>
-        <td><a href="https://drive.google.com/file/d/1Bp-os0Nuz38Yy0BqN2fbjz7Ph6oWToSq/view?usp=sharing">Week 9 League Metrics</a></td>
+        <td><a href="https://drive.google.com/file/d/1Bp-os0Nuz38Yy0BqN2fbjz7Ph6oWToSq">Week 9 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=HlgVE-tP_cw">Week 10 "power rankings"</a></td>
+        <td>Austin</td>
+        <td><a href="https://drive.google.com/file/d/195l0XSWrdubrWz9T3wo0wiG-7yk7Ir2H">Week 10 League Metrics</a></td>
       </tr>
       
 <!--       <tr>
