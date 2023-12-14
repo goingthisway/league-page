@@ -208,6 +208,11 @@
         <td><a href="https://docs.google.com/document/d/19kl4xqhkRbq1Co1LTl-rJJ7Mt5EBofFSYFZSEzcgBK0">Week 13</a></td>
         <td>Max</td>
         <td><a href="https://drive.google.com/file/d/1ZWFG7xunOooOZ_L4722z8QlKktsJwrhT">Week 13 League Metrics</a></td>
+      </tr>      
+      <tr>
+        <td><a href="https://docs.google.com/document/d/19kl4xqhkRbq1Co1LTl-rJJ7Mt5EBofFSYFZSEzcgBK0">Week 14</a></td>
+        <td>Bao</td>
+        <td><a href="https://drive.google.com/file/d/13OZx0ayjAEiZ1duAyKC4WezPHTnKLmOQ">Week 14 League Metrics</a></td>
       </tr>
       
 <!--       <tr>
@@ -215,7 +220,6 @@
         <td>Richard</td>
         <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi">Week 12 League Metrics</a></td>
       </tr> -->
-https://docs.google.com/document/d/1wnsLUNApX1cavNlJU1M2x8fAgNKPuzne3QaCxNgwozo/edit?usp=sharing
     </table>
 </div>
 
