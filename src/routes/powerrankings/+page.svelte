@@ -106,7 +106,7 @@
 <div>
     <a style="color: black;">Season:</a>
     <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
-        <option value="2024">2021</option>
+        <option value="2024">2024</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
         <option value="2021">2021</option>
