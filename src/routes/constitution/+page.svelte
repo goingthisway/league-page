@@ -98,7 +98,7 @@
 <div class="constitution">
     <h1 class="noUnderscore">LEAGUE OF HORSES CONSTITUTION</h1>
     
-    <h2 class="noUnderscore"><a href="https://docs.google.com/document/d/1fz26OwUTTopjhPLC2m7xGzChdaT9_Dpnbo-KielStEU/">League of Horses 2023 Season</a></h2> 
+    <h2 class="noUnderscore"><a href="https://docs.google.com/document/d/1BAiCr4H3KkqzU1xvVgQuCo36CBfquVc_tsyOfQByYXs/">League of Horses 2024 Season</a></h2> 
 
-    <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1JF2sqesM9kFhzMbmWQwEcHbaMVYWqgkQRRZY4C1O_jU/">League of Horses 2023 Bonus Schedule</a></h2>
+    <h2 class="noUnderscore"><a href="https://docs.google.com/spreadsheets/d/1wtBGqabNHPmO1E2_Urdo9xF0X4bplEkAgasybwzAzYs/">League of Horses 2024 Bonus Schedule</a></h2>
 </div>
