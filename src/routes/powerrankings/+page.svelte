@@ -106,6 +106,7 @@
 <div>
     <a style="color: black;">Season:</a>
     <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
+        <option value="2024">2021</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
         <option value="2021">2021</option>
@@ -114,30 +115,61 @@
 <div id="seasonContent" style="visibility: hidden">2023</div>
 <script type="text/javascript">
     function changeDisplay(view1){
+        twenty_four = document.getElementById("twentyFourTable");
         twenty_three = document.getElementById("twentyThreeTable");
         twenty_two = document.getElementById("twentyTwoTable");
         twenty_one = document.getElementById("twentyOneTable");
-        if(view1 == "2023"){
-            twenty_three.before(twenty_two, twenty_one);
+        if(view1 == "2024"){
+            twenty_three.before(twenty_three, twenty_two, twenty_one);
+            twenty_four.style.visibility = 'visible';
+            twenty_three.style.visibility = 'collapse';
+            twenty_two.style.visibility = 'collapse';
+            twenty_one.style.visibility = 'collapse';
+        }
+        else if(view1 == "2023"){
+            twenty_three.before(twenty_four, twenty_two, twenty_one);
+            twenty_four.style.visibility = 'collapse';
             twenty_three.style.visibility = 'visible';
             twenty_two.style.visibility = 'collapse';
             twenty_one.style.visibility = 'collapse';
         }
         else if(view1 == "2022"){
-            twenty_two.before(twenty_three, twenty_one);
+            twenty_two.before(twenty_four, twenty_three, twenty_one);
+            twenty_four.style.visibility = 'collapse';
             twenty_three.style.visibility = 'collapse';
             twenty_two.style.visibility = 'visible';
             twenty_one.style.visibility = 'collapse';
         }
         else{
-            twenty_one.before(twenty_three, twenty_two);
+            twenty_one.before(twenty_four, twenty_three, twenty_two);
+            twenty_four.style.visibility = 'collapse';
             twenty_three.style.visibility = 'collapse';
             twenty_two.style.visibility = 'collapse';
             twenty_one.style.visibility = 'visible';
         }
     }
 </script>
-<div class="twoTable" id="twentyThreeTable" style="visibility: visible;">
+<div class="fourTable" id="twentyFourTable" style="visibility: visible;">
+    <table>
+      <tr>
+        <th>Link</th>
+        <th>Author</th>
+        <th>Weekly Metrics</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 1</a></td>
+        <td>Mark</td>
+        <td><a href="https://drive.google.com/file/d/1Ju-qwVoLhdgjCaenbsESSaDEkh9YQU4N">Week 1 League Metrics</a></td>
+      </tr>
+      
+<!--       <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 12</a></td>
+        <td>Richard</td>
+        <td><a href="https://drive.google.com/file/d/1T1l0pH5Qq63k174u7EkIyr4TwwWbRXYi">Week 12 League Metrics</a></td>
+      </tr> -->
+    </table>
+</div>
+<div class="threeTable" id="twentyThreeTable" style="visibility: hidden;">
     <table>
       <tr>
         <th>Link</th>
