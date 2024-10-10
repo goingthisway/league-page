@@ -157,11 +157,30 @@
         <th>Weekly Metrics</th>
       </tr>
       <tr>
-        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 1</a></td>
-        <td>Mark</td>
+        <td><a href="https://docs.google.com/document/d/1sQoZ_JTKP6XncAV3PnCnn6lhcdQgpWJf2Q2MuV2A-8s/edit?usp=sharing">Week 1</a></td>
+        <td>Ian (Mark was fined and Ian chose to write in his place)</td>
         <td><a href="https://drive.google.com/file/d/1snSZY5k4adt_DovS17xDvm_EpKrYl5Hf">Week 1 League Metrics</a></td>
       </tr>
-      
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1rDhSakkfuRBZw3sGBvY4cpAextJD68Sz7wZE5qyuMeY/edit">Week 2</a></td>
+        <td>Bao</td>
+        <td><a href="https://drive.google.com/file/d/18fdvzSIYQd_bp-AbxoDYq4ETbypEKqSm">Week 2 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 3</a></td>
+        <td>Daniel</td>
+        <td><a href="https://drive.google.com/file/d/1XZxpOC18osg32JkJKN4mBCpPWYN-Usbe">Week 3 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1nGNipw98Vkldr9FMGJdBEaMlzu-QYe6RZBHA-uLJK2E/edit">Week 4</a></td>
+        <td>Mica</td>
+        <td><a href="https://drive.google.com/file/d/1hXBCIS3RSanSUmRGxwyB5CSqwrDMhw67">Week 4 League Metrics</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://docs.google.com/document/d/1FPXu8sq8dOjXltXV-D6cdHQyEgVT0ad761eDYpybjo8/edit">Week 5</a></td>
+        <td>Bao</td>
+        <td><a href="https://drive.google.com/file/d/12eQJvKO4J_j7_PUBsZrqIYBk2pCgN1HT">Week 5 League Metrics</a></td>
+      </tr>
 <!--       <tr>
         <td><a href="https://www.youtube.com/watch?v=1GiPcP30cFc">Week 12</a></td>
         <td>Richard</td>
