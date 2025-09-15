@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the League page for our League of Horses</p>
-  <p>We're back for year 5 marky marky has rejoined the league as we prepare for a new season.</p>
+  <p>We're back for year 6 with new challenger Vardhan who has already created wuite the controvery with his blockbuster trade with Manager Rim.</p>
 `;
 
 /*   STEP 3   */
@@ -300,12 +300,12 @@ export const managers = [
         {
       
       "managerID": "1129522932197269504",
-      "name": "Mark Chen",
+      "name": "Vardhan Mehan",
       
       "location": "Virginia", // (optional)
       "bio": "New challenger has appeared",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2025, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "bal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -316,8 +316,8 @@ export const managers = [
       "favoritePlayer": 4881, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Flex a TE",
-      "tradingScale": 3, // 1 - 10
+      "philosophy": "Fleece them and watch them cry for trade vetos",
+      "tradingScale": 10, // 1 - 10
       "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   ]
