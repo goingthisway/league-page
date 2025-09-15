@@ -52,6 +52,7 @@ export const gotoManager = ({leagueTeamManagers, managerID, rosterID, year}) => 
         // support for league pages still using deprecated roster field
         if(managersIndex < 0 && leagueTeamManagers.teamManagersMap[year] != null) {
             for(const rID in leagueTeamManagers.teamManagersMap[year]) {
+                if(leagueTeamManagers.teamManagersMap[year][rID] == null) continue;
                 for(const mID of leagueTeamManagers.teamManagersMap[year][rID].managers) {
                     if(leagueTeamManagers.teamManagersMap[year][rID] == null) continue;
                     if(mID == managerID) {

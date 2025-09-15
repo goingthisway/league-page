@@ -107,16 +107,20 @@
     {#if managersOutOfDate}
       <p class="updateNotice">Your managers page needs an update, <a href="https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#2-add-managers">please follow the instructions</a> to get the most up-to-date experience.</p>
     {/if}
-  <div id="navigation">
-    <ul>
-      {#each tabs as tab}
-        {#if !tab.nest}
-          <li><div class="navLink" on:click={() => goto(tab.dest)}>{tab.label}</div></li>
-        {:else}
-          {#each tab.children as child}
+	<div id="navigation">
+		<ul>
+			{#each tabs as tab}
+				{#if !tab.nest}
+					<li><div class="navLink" onclick={() => goto(tab.dest)}>{tab.label}</div></li>
+				{:else}
+					{#each tab.children as child}
                         <!-- Shouldn't show Managers tab unless managers has been populated -->
-                {#if child.label != "Managers" || managers.length > 0}
-                            <li><div class="navLink" on:click={() => goto(child.dest)}>{child.label}</div></li>
+				        {#if child.label != "Managers" || managers.length > 0}
+							{#if child.label == "Go to Sleeper"}
+								<li><div class="navLink" onclick={() => window.location = child.dest}>{child.label}</div></li>
+							{:else}
+                            	<li><div class="navLink" onclick={() => goto(child.dest)}>{child.label}</div></li>
+							{/if}
                         {/if}
           {/each}
         {/if}
