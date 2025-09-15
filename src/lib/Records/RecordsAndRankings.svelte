@@ -636,6 +636,7 @@
                     <Row>
                         <Cell class="rank">{ix + 1}</Cell>
                         <Cell class="cellName differentialName">
+                            <div>
                                 <div onclick={() => gotoManager({year: closestMatchup.year || prefix, leagueTeamManagers, rosterID: closestMatchup.home.rosterID})}>
                                     <RecordTeam {leagueTeamManagers} rosterID={closestMatchup.home.rosterID} year={allTime ? closestMatchup.year : prefix} compressed={true} points={round(closestMatchup.home.fpts)} />
                                 </div>
