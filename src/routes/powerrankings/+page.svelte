@@ -105,7 +105,7 @@
     is an archive of all previous power rankings. </div><p></p>
 <div>
     <a style="color: black;">Season:</a>
-    <select onchange="changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);">
+    <select onchange={() => eval("changeDisplay(document.getElementById('seasonContent').innerHTML=options[selectedIndex].value);")}>
         <option value="2024">2024</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
