@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the League page for our League of Horses</p>
-  <p>We're back for year 6 with new challenger Vardhan who has already created wuite the controvery with his blockbuster trade with Manager Rim.</p>
+  <p>We're back for year 6 with new challenger Vardhan who has already created quite the controvery with his blockbuster trade with Manager Rim.</p>
 `;
 
 /*   STEP 3   */
