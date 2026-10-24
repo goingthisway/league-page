@@ -20,6 +20,7 @@ import Posts from './BlogPosts/Posts.svelte';
 import Standings from './Standings/index.svelte';
 import WeeklyAwards from './WeeklyAwards/index.svelte';
 import WeeklyHistory from './WeeklyHistory/index.svelte';
+import PlayoffPicture from './PlayoffPicture/index.svelte';
 
 export {
     Nav,
@@ -44,4 +45,5 @@ export {
     Standings,
     WeeklyAwards,
     WeeklyHistory,
+    PlayoffPicture,
 };
