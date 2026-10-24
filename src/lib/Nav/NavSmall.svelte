@@ -34,7 +34,7 @@
 	}
 
 	:global(.menuIcon:hover) {
-		color: #00316b;
+		color: #b81020;
 	}
 
 	:global(.nav-drawer) {

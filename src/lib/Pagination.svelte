@@ -46,7 +46,7 @@
     }
 
     :global(.button:hover) {
-        color: #0082c3;
+        color: #a8780a;
     }
 
     .paginationBar {
@@ -75,7 +75,7 @@
     }
 
     .dest:hover {
-        color: #0082c3;
+        color: #a8780a;
     }
 
     .selected {

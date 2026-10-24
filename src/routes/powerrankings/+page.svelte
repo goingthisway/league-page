@@ -91,7 +91,7 @@
     }
 
     .clickable:hover {
-        color: #00316b;
+        color: #b81020;
     }
 
     p {

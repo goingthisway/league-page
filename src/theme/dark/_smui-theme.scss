@@ -4,8 +4,8 @@
 
 // Svelte Colors!
 @use '@material/theme/index' as theme with (
-  $primary: #0082c3,
-  $secondary: #00316b,
+  $primary: #e0303f,
+  $secondary: #b81020,
   $surface: #000000,
   $background: #000000,
   $error: color-palette.$red-900,
@@ -55,8 +55,8 @@
   --boxShadowThree: #0d0d0d;
   --ir: #222;
   --champShadow: #111;
-  --transactHeader: #202424;
-  --draftSwapped: #202025;
+  --transactHeader: #2a2220;
+  --draftSwapped: #2a2420;
   --waiverAdd: #3e4741;
   --waiverDrop: #423a3a;
   --bracketMatch: #010102;
@@ -65,28 +65,28 @@
   --fadeTwo: rgba(0, 0, 0, 0.7) 50%;
   --fadeThree: rgba(0, 0, 0, 0.9) 90%;
   --fadeFour: rgba(0, 0, 0, 1) 100%;
-  --blueOne: #0082c3;
-  --blueTwo: #003c86;
+  --blueOne: #e0303f; // main brand red (name kept from the template)
+  --blueTwo: #7a0f1a;
   --r1: #1c1c1d;
   --r2: #1f1d1d;
   --r3: #181a18;
-  --headerPrimary: #2a2e31;
+  --headerPrimary: #2e2626;
   --borderOverride: rgba(255,255,255,.3);
   --rivalryBack: #333;
 
   // Chart bar colors
-  --barChartOne: #446a88;
-  --barChartTwo: #32788f;
-  --barChartThree: #1d808d;
-  --barChartFour: #198886;
-  --barChartFive: #2b8673;
-  --barChartSix: #448864;
+  --barChartOne: #8a3a44;
+  --barChartTwo: #8a4b3d;
+  --barChartThree: #8a5c35;
+  --barChartFour: #86702f;
+  --barChartFive: #7f7b30;
+  --barChartSix: #6f7a3a;
 
   // Comparisson bar colors
-  --compBarOne: #446a88;
-  --compBarTwo: #448864;
-  --compBarOneText: #7fc4f5;
-  --compBarTwoText: #79edad;
+  --compBarOne: #8a3a44;
+  --compBarTwo: #86702f;
+  --compBarOneText: #f08a94;
+  --compBarTwoText: #e6c35a;
   
   // Positions
   --QBfade: #ff8fb2;
